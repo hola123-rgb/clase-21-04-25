@@ -1,24 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
 </head>
-<body> 
+<body>
+    <div id="mensaje">Bienvenidos a Certus</div>
+    <div id="resultado">40</div>
 
-    <h1>Página de Bienvenida</h1>
-
-    <p id="mensaje" style="color: red;">Este es un párrafo</p>
     <script>
-    document.getElementById('mensaje').innerHTML="Certus";
+        var mensaje="Bienvenidos a Certus"
+        document.getElementById('mensaje').innerHTML=mensaje;
+        var valor1=10;
+        var valor2=30;
+        var suma=valor1+valor2;
 
-    document.write("<h2 style='color: blue; '>Bienvenido al segundo párrafo</h2>");
- 
-    window.alert('Bienvenido a Certus');
- 
-    console.log('Mensaje de la consola del navegador');
-</script>
-</body>
-</html>
+        document.getElementById('resultado').innerHTML=suma;
+
+        
+    </script>
+
+</body></html>
