@@ -1,22 +1,25 @@
-<html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <div id="mensaje">Bienvenidos a Certus</div>
-    <div id="resultado">40</div>
+    <div id="mensaje"></div>
+    <div id="resultado"></div>
 
     <script>
-        var mensaje="Bienvenidos a Certus"
-        document.getElementById('mensaje').innerHTML=mensaje;
-        var valor1=10;
-        var valor2=30;
-        var suma=valor1+valor2;
+        var _valor1=10;
 
-        document.getElementById('resultado').innerHTML=suma;
+        var $valor2=30;
 
-        
+        var suma=_valor1+$valor2;
+        document.getElementById('resultado').innerHTML="El resultado de la suma es: "+suma;
+
+        var nombreInstituto="Certus";
+
+        document.getElementById('mensaje').innerHTML="Bienvenido a "+nombreInstituto;
     </script>
-
-</body></html>
+</body>
+</html>
